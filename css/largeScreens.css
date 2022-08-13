@@ -1,0 +1,28 @@
+@media (min-width: 1024px) and (max-width: 1339px)
+{
+    .Icon
+    {
+        display: none;
+    }
+
+    #navMiddle
+    {
+        width: 53%;
+    }
+
+    #Right-2
+    {
+        width: 46%;
+    }
+
+    #Right-3
+    {
+        display: none;
+    }
+
+    #Right-4
+    {
+        text-align: center;
+        padding-top: 10px;
+    }
+}

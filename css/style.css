@@ -1,0 +1,295 @@
+*
+{
+    padding : 0px;
+    margin: 0px;
+}
+
+.Mobile
+{
+    display: none;
+}
+
+.line-1
+{
+    display: block;
+    font-size: 12px;
+    line-height: 14px;
+    height: 14px;
+    font-weight: 400;
+    color: #ccc;
+}
+.line-2
+{
+    display: block;
+    font-size: 14px;
+    line-height: 15px;
+    font-weight: 700;
+    color: white;
+}
+
+a
+{
+    text-decoration: none;
+    color:inherit;
+}
+
+a:hover
+{
+    text-decoration: none;
+    color: initial;
+}
+
+
+/*==================================================== Laptop Navbar ============================================================*/
+
+
+nav
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+    background-color: #131921;
+
+    width: 100%;
+    height: auto;
+}
+
+.navSection
+{
+    height: 60px;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+
+.navItem
+{
+    height: 50px;
+    margin-top: 5px;
+    padding-top: 5px;
+    border: 1px solid transparent;
+}
+
+.navItem:hover
+{
+    border-color: white;
+}
+
+.Hoverless:hover
+{
+    border-color: transparent;
+}
+
+#navLeft
+{
+    width: 14%;
+}
+
+#navMiddle
+{
+    width: 60%;
+}
+
+#navRight
+{
+    width: 26%;
+}
+
+
+/*====================================== Left Nav Section ==========================================================================*/
+
+
+.Icon
+{
+    display:inline-block;
+}
+
+.Info
+{
+    display:inline-block;
+    color: white;
+}
+
+
+#Right-2
+{
+    width: 35%;
+     height: 50px;
+}
+
+
+
+.dropdown-menu
+{
+    height: 300px;
+    overflow: auto;
+}
+
+.Searchbar
+{
+    width: 50% !important;
+}
+
+.dropdown-toggle
+{
+    background-color: #dadada;
+    border-color: #dadada;
+    border-top-right-radius:0;
+    border-bottom-right-radius:0;
+
+    color: black;
+}
+
+.dropdown-toggle:active
+{
+    border-color: transparent;
+}
+
+.submit
+{
+    background-color: #F3A847 !important;
+}
+
+
+
+
+.language, .language:hover , .language:focus, .language:active
+{
+    background-color: transparent;
+    border: none;    
+    color: gray;
+}
+
+.rightButton
+{
+    background-color: transparent;
+    border-color: transparent;
+    color: white;
+}
+
+.rightButton:hover
+{
+    border-color: transparent;
+    border-radius:0px;
+    background-color: transparent;
+}
+
+.rightButton:focus
+{
+    background-color: transparent !important;
+    border-color: transparent !important;
+    box-shadow: none;
+}
+
+.rightButton h2
+{
+    font-size: 13px;
+    display: inline;
+}
+
+.rightButton h3
+{
+    font-size: 10px;
+}
+
+.DropLogin
+{
+    position: relative;
+    left: -400px;
+    width: 600px;
+    height: auto;
+}
+
+.DropLogin a:hover , .dropListLink:hover
+{
+    color : blue;
+}
+
+
+
+.Signin-Button
+{
+    color: black;
+    background-color: #F2CB69 !important;
+    border: 1px solid transparent !important;    
+}
+
+.Signin-Button:hover
+{
+    background-color: rgba(242, 203, 105,0.8) !important;
+}
+
+
+
+
+.dropListLink
+{
+    font-size: 13px;
+    color: #444; 
+    font-weight: 400;
+    transition: all 0.5s;
+}
+
+
+/*================================================================= Mobile Navbar =============================================================*/
+
+/*Top Slide*/
+
+.mobileSection
+{
+    margin-left: 8px;
+    justify-content: start;
+}
+
+
+#Top-1
+{
+    width: 10%;
+    margin-Right:10px
+}
+
+#Top-2
+{
+    margin-top: 8px;
+    margin-right: 50px;
+}
+
+#Top-3
+{
+    width: 27%;
+    margin-right: 10px;
+}
+
+.Mobile-Sign .Info
+{
+    width: 63%;
+    font-size: 13px;
+}
+
+.Mobile-Sign .Icon
+{
+    width: 13%;
+}
+
+.MobileSearch
+{
+    width: 98%;
+}
+
+.navSlider
+{
+    text-align: center;
+}
+
+.navSlider li
+{
+    text-align: center;
+    display: inline;
+    color: white;
+    margin-right: 5px;
+    
+}
