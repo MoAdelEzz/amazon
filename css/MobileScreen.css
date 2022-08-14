@@ -1,4 +1,4 @@
-@media (max-width: 768px)
+@media (max-width: 1023px)
 {
     .Laptop
     {
@@ -7,5 +7,20 @@
     .Mobile
     {
         display: block;
+    }
+    #Top-2
+    {
+        margin-right: 20%;
+    }
+    #Top-3
+    {
+        width: 25%;
+    }
+
+    .wrapper
+    {
+        width: 90%;
+        margin:auto;
+        margin-bottom: 10px;
     }
 }

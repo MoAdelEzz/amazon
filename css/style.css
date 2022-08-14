@@ -4,6 +4,12 @@
     margin: 0px;
 }
 
+
+body
+{
+    background-color: #EAEDED;
+}
+
 .Mobile
 {
     display: none;
@@ -235,6 +241,45 @@ nav
 }
 
 
+.Rippon
+{
+    background-color: rgb(35,47,62);
+
+    width: 100%;
+    height: 40px;
+
+}
+
+.Rippon
+{
+    padding-top: 1px;
+}
+
+.Rippon ul
+{
+    margin-left: 20px;
+    margin-top: 2px;
+    padding-top: 5px;
+    
+    
+}
+
+.Rippon ul li
+{
+    display: inline;
+    margin-right: 10px;
+    padding: 2px;
+}
+
+
+.Rippon ul li a
+{
+    text-decoration: none;
+    color: white;
+}
+
+
+
 /*================================================================= Mobile Navbar =============================================================*/
 
 /*Top Slide*/
@@ -249,30 +294,32 @@ nav
 #Top-1
 {
     width: 10%;
-    margin-Right:10px
+    margin-Right:10px;
 }
 
 #Top-2
 {
     margin-top: 8px;
-    margin-right: 50px;
+    margin-right: 40%;
 }
 
 #Top-3
 {
-    width: 27%;
-    margin-right: 10px;
+    width: 12%;
 }
+
+
 
 .Mobile-Sign .Info
 {
-    width: 63%;
+    width: 50%;
     font-size: 13px;
+    display: inline;
 }
 
 .Mobile-Sign .Icon
 {
-    width: 13%;
+    width: 25%;
 }
 
 .MobileSearch
@@ -283,6 +330,8 @@ nav
 .navSlider
 {
     text-align: center;
+    overflow: auto;
+    white-space: nowrap;
 }
 
 .navSlider li
@@ -292,4 +341,106 @@ nav
     color: white;
     margin-right: 5px;
     
+}
+
+
+/*========================================================= Body ============================================================================*/
+.First-Slider
+{
+    width: 99%;
+    margin: auto;
+    height: 250px;
+}
+
+.Page-bg-1, .Page-bg
+{
+    position: relative;
+    background-color: transparent;
+    width: 99%;
+    margin: auto;
+    height: auto;
+    z-index: 20;
+    
+}
+
+.Page-bg
+{
+
+    background-color: #EAEDED;
+}
+
+.fourProductsContainer
+{
+    display: flex;
+    width: 99%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+.wrapper
+{
+    padding-top: 10px;
+    width: 24%;
+    height: 385px;
+    background-color: white;
+    margin-bottom: 20px;
+}
+
+
+
+.Product
+{
+    height: 115px;
+    width: 50%;
+    display: inline-block;
+    float: left;
+    margin-bottom: 25px;
+}
+
+.productOneImage
+{
+    height: 280px;
+    width: 90%;
+    margin: auto;
+    
+}
+
+.Product .image
+{
+    width: 100%;
+    height: 80%;
+}
+.productOneImage .image
+{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+.Product .image img, .productOneImage .image img
+{
+    width: 100%;
+    height: 100%;
+}
+
+.Product .Name
+{
+    width: 100%;
+    height: 20%;
+}
+
+.seeMore a
+{
+    width: 100%;
+    color: #007185;
+    padding-left: 10px;
+}
+
+.seeMore a:hover
+{
+    color: orange;
+    text-decoration: underline;
 }

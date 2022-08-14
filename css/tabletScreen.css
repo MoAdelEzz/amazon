@@ -1,0 +1,19 @@
+@media (min-width: 768px) and (max-width: 1023px)
+{
+
+    .Mobile
+    {
+        justify-content: flex-start;
+    }
+
+    #Top-3
+    {
+        width: 15%;
+    }   
+    #Top-2
+    {
+        margin-right: 40%;
+    }
+
+
+}
