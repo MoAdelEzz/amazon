@@ -352,94 +352,230 @@ nav
     height: 250px;
 }
 
-.Page-bg-1, .Page-bg
+.row
 {
+    height: 385px;
+    margin-left: 1.5%;
+}
+
+.Product
+{
+    width: 350px;
     position: relative;
-    background-color: transparent;
-    width: 99%;
-    margin: auto;
-    height: auto;
     z-index: 20;
+    margin-right: 20px;
+
+    background-color: white;
+
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+
+}
+
+.Product h4
+{
+    font-size: 21px;
+    padding-left: 20px;
+}
+
+
+/*===================================================================================*/
+
+.fourImages
+{
+    display: flex;
+    flex-wrap: wrap;
+    height: 80%;
+
+    margin-bottom: 10px;
+}
+
+.fourImages-img
+{
+    width: 50%;
+    height: 50%;
+}
+
+.fourImages-img img
+{
+    height: 80%;
+    width: 100%;
+}
+
+
+.fourImages-img h2
+{
+    height: 20%;
+    font-size: 100%;
+    padding-left: 20px;
     
 }
 
-.Page-bg
+#Special
 {
-
-    background-color: #EAEDED;
+    font-size: 12px;
+    text-align: center;
+}
+/*===================================================================================*/
+.oneImage
+{
+    width: 90%;
+    margin: auto;
+    height: 85%;
 }
 
-.fourProductsContainer
+.oneImage img
 {
-    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+/*===================================================================================*/
+
+
+.productSlider
+{
     width: 99%;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-
-
-.wrapper
-{
-    padding-top: 10px;
-    width: 24%;
-    height: 385px;
     background-color: white;
+    padding: 10px 0px 10px 10px;
     margin-bottom: 20px;
 }
 
 
-
-.Product
+.productCarasoul
 {
-    height: 115px;
-    width: 50%;
-    display: inline-block;
-    float: left;
-    margin-bottom: 25px;
+    width: 100%;
+    height: 200px;
+    overflow: auto;
+    white-space: nowrap;
 }
 
-.productOneImage
+
+
+.carousel-img
 {
-    height: 280px;
+    width: auto;
+    height: 75%;
+    display: inline-block;
+    margin-right: 60px;
+    margin-top: 20px;
+
+}
+
+.carousel-img img
+{
+    max-width: 200px;
+    height: 100%;
+}
+
+/*===================================================================================*/
+.dealDay
+{ 
     width: 90%;
     margin: auto;
-    
+    height: 85%;
 }
 
-.Product .image
+.dealDayImg
 {
     width: 100%;
     height: 80%;
+    margin-bottom: 10px;
 }
-.productOneImage .image
+
+.dealDayImg img
 {
-    width: 100%;
     height: 100%;
+    width: 100%;
 }
 
 
+.rippon
+{
+    font-size: 12px;
+    background-color: #CC0C39;
+    color: white;
+}
 
+.rippon:hover
+{
+    color: white;
+}
 
-.Product .image img, .productOneImage .image img
+.dealDay span
+{
+    font-size: 12px;
+    color: #CC0C39;
+}
+
+/*===================================================================================*/
+.SpecialSection
+{
+    background-color: transparent;
+    text-align: center;
+}
+
+.SpecialSection .Sign
 {
     width: 100%;
-    height: 100%;
+    height: 150px;
+    margin-top: -20px;
+    background-color: white;
+    margin-bottom: 20px;
+
+    padding-top: 15px;
+
 }
 
-.Product .Name
+.SpecialSection .Sign h2
 {
-    width: 100%;
-    height: 20%;
+    font-size: 21px;
+    text-align: center;
+    margin-bottom: 25px;
 }
 
-.seeMore a
+.SpecialSection .Sign button
+{
+    width: 90%;
+    height: 30px;
+
+
+    padding-top: 2px;
+
+    margin-left: 15px;
+    border-radius: 10px;
+
+    background-color: transparent;
+    border-color:#FCD200;
+
+    color: black;
+    font-size: 15px;
+
+    transition: all 0.5s;
+}
+
+.SpecialSection .Sign button:hover
+{
+    background-color: #FCD200;
+    color: black;
+}
+
+
+
+
+/*===================================================================================*/
+
+.seeMore
 {
     width: 100%;
     color: #007185;
-    padding-left: 10px;
+    padding-left: 20px;
 }
 
-.seeMore a:hover
+.seeMore:hover
 {
     color: orange;
     text-decoration: underline;

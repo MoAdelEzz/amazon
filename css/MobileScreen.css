@@ -1,4 +1,4 @@
-@media (max-width: 1023px)
+@media (max-width: 1023px)              /*This Is Applicable For Both Mobile And Tablet Screens*/
 {
     .Laptop
     {
@@ -22,5 +22,22 @@
         width: 90%;
         margin:auto;
         margin-bottom: 10px;
+    }
+    .productOneImage
+    {
+    height: 250px;
+    }
+}
+
+
+/*Mobile Only =========================>*/
+
+@media (max-width: 767px)
+{
+    .Product
+    {
+        width: 90%;
+        margin: auto;
+        margin-bottom: 40px;
     }
 }
