@@ -25,4 +25,10 @@
         text-align: center;
         padding-top: 10px;
     }
+    .Product
+    {
+        width: 40%;
+        margin: auto;
+        margin-bottom: 20px;
+    }
 }

@@ -4,6 +4,12 @@
     margin: 0px;
 }
 
+@font-face
+{
+    font-family: 'amazon';
+    src: url(../Fonts/Amazon\ Ember.ttf);
+}
+
 
 body
 {
@@ -354,7 +360,7 @@ nav
 
 .row
 {
-    height: 385px;
+    height: auto;
     margin-left: 1.5%;
 }
 
@@ -568,6 +574,27 @@ nav
 
 /*===================================================================================*/
 
+.One-img
+{
+    width: 95%;
+    margin: auto;
+}
+
+.Three-img
+{
+    width: 30%;
+    margin: auto;
+}
+
+.One-img h2 , .Three-img h2
+{
+    text-align: left;
+    padding-left: 2px;
+}
+
+/*===================================================================================*/
+
+
 .seeMore
 {
     width: 100%;
@@ -580,3 +607,122 @@ nav
     color: orange;
     text-decoration: underline;
 }
+
+
+/*===================================================================================*/
+
+.beforeFooter
+{
+    width: 100%;
+    height: auto;
+    background-color: white;
+    padding-top: 1px;
+}
+
+.border
+{
+    height: 80%;
+    margin-top: 20px;
+    padding-top: 30px;
+}
+
+.border button
+{
+    margin-bottom: 5px;
+    background-image: linear-gradient(to right, #FFCA44,#FFCC4D);
+    color: black;
+}
+
+.border button:hover
+{
+    color: black;
+}
+
+.border h5
+{
+    font-size: 14px;
+    text-align: center;
+}
+
+.border h5 a
+{
+    color: blue;
+}
+
+.border h5 a:hover
+{
+    text-decoration: underline;
+}
+
+
+.borderWrapper
+{
+
+    width: 15%;
+    height: 75%;
+    margin: auto;
+}
+
+/*===================================================================================*/
+.backToTop
+{
+    background-color: #485769;
+    font-size: 10px;
+    height: 50px;
+    border: 0px !important;
+    border-radius: 0px !important;
+}
+
+.backToTop:hover
+{
+    background-color:#37475A;
+}
+
+.backToTop:focus
+{
+    background-color:#37475A !important;
+    border-color: #37475A !important;
+    box-shadow: none !important;
+}
+
+.backToTop:active
+{
+    background-color:#37475A !important;
+    border-color: #37475A !important;
+    box-shadow: none !important;
+}
+
+/*===================================================================================*/
+.footer
+{
+    background-color: #232F3E;
+    color: white;
+    font-family: 'amazon';
+}
+
+.footer h4
+{
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+.footer ul
+{
+    list-style: none;
+}
+
+.footer ul li
+{
+    font-size: 14px;
+    color: #dddddd;
+    margin-bottom: 5px;
+}
+
+.footer ul li a:hover
+{
+    text-decoration: underline;
+    color: #dddddd;  
+}
+
