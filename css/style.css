@@ -1,3 +1,4 @@
+/* Public Properties ===========> */
 
 @font-face
 {
@@ -8,8 +9,9 @@
 
 *
 {
-    padding : 0px;
     margin: 0px;
+    padding : 0px;
+
     font-family: 'amazon';
 }
 
@@ -26,47 +28,51 @@ body
 .line-1
 {
     display: block;
+
+    height: 14px;
+
+    color: #ccc;
     font-size: 12px;
     line-height: 14px;
-    height: 14px;
     font-weight: 400;
-    color: #ccc;
 }
 .line-2
 {
     display: block;
+
+    color: white;
     font-size: 14px;
     line-height: 15px;
     font-weight: 700;
-    color: white;
 }
 
 a
 {
-    text-decoration: none;
     color:inherit;
+    text-decoration: none;
 }
 
 a:hover
 {
-    text-decoration: none;
     color: initial;
+    text-decoration: none;
 }
 
+/*;*/
 
 /*==================================================== Laptop Navbar ============================================================*/
 
 
 nav
 {
+    width: 100%;
+    height: auto;
+
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
 
     background-color: #131921;
-
-    width: 100%;
-    height: auto;
 }
 
 .navSection
@@ -83,8 +89,10 @@ nav
 .navItem
 {
     height: 50px;
+
     margin-top: 5px;
     padding-top: 5px;
+    
     border: 1px solid transparent;
 }
 
@@ -117,6 +125,103 @@ nav
 /*====================================== Left Nav Section ==========================================================================*/
 
 
+
+/*Modal Properties =====================================>*/
+
+.modal-header
+{
+    background-color: #f0f2f2;
+}
+
+.modal-title
+{
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.modal-body
+{
+    
+    width: 80%;
+    
+    margin: auto;
+
+    font-size: 12px;
+}
+
+.modal-body button
+{
+    width: 100%;
+
+    margin-bottom: 5px;
+
+    background-image: linear-gradient(to right, #FFCA44,#FFCC4D);
+    
+    border-radius: 10px;
+
+    color: black;
+}
+
+.modal-body .Field
+{
+    border-top: 2px solid rgba(0,0,0,0.2);    
+}
+
+.modal-body .Field h4
+{
+    font-size: 12px;
+    text-align: center;
+}
+
+
+.modal-body .Field input
+{
+    width: 65%;
+    height: 30px;
+}
+
+
+.modal-body .Field .firstButton
+{
+    width: 30%;
+    height: 30px;
+
+    background-color: white !important;
+    
+    border: 2px solid rgba(0,0,0,0.2);
+    border-radius: 5px;
+}
+
+.modal-body .Signin-Button
+{
+    width: 100% !important;
+    height: 25px;
+
+    background-color: #FFCA44;
+
+    font-size: 12px;
+    line-height: 1px;
+}
+
+.Field select
+{
+    width: 100%;
+    height: 30px;
+
+    padding: 5px 10px;
+
+    background-color: #E3E6E6;
+
+    border-radius: 10px;
+    border: 2px solid #E3E6E6;
+}
+
+/*;*/
+
+
+/* Deliver to Properties =====================================>*/
+
+
 .Icon
 {
     display:inline-block;
@@ -125,18 +230,16 @@ nav
 .Info
 {
     display:inline-block;
+
     color: #dddddd;
     font-weight: 700;
 }
 
-
-#Right-2
-{
-    width: 35%;
-     height: 50px;
-}
+/*;*/
 
 
+
+/* ========================================== Middle part =====================================*/
 
 .dropdown-menu
 {
@@ -152,6 +255,7 @@ nav
 .dropdown-toggle
 {
     background-color: #dadada;
+    
     border-color: #dadada;
     border-top-right-radius:0;
     border-bottom-right-radius:0;
@@ -171,6 +275,14 @@ nav
 
 
 
+/* ========================================== Right part =====================================*/
+
+
+#Right-2
+{
+    width: 35%;
+    height: 50px;
+}
 
 .language, .language:hover , .language:focus, .language:active
 {
@@ -239,9 +351,6 @@ nav
     background-color: rgba(242, 203, 105,0.8) !important;
 }
 
-
-
-
 .dropListLink
 {
     font-size: 13px;
@@ -249,6 +358,10 @@ nav
     font-weight: 400;
     transition: all 0.5s;
 }
+
+
+
+/* ========================================== Laptop navBar rippon =====================================*/
 
 
 .Rippon
@@ -356,6 +469,8 @@ nav
 
 
 /*========================================================= Body ============================================================================*/
+/* Public Classes For The Body =======================>*/
+
 .First-Slider
 {
     width: 99%;
@@ -394,7 +509,7 @@ nav
 
 
 /*===================================================================================*/
-
+/* Product Box With four Images ==============================>*/
 .fourImages
 {
     display: flex;
@@ -432,7 +547,10 @@ nav
 }
 
 
+
 /*===================================================================================*/
+/* Product Box With one Images ==============================>*/
+
 .oneImage
 {
     width: 90%;
@@ -449,7 +567,7 @@ nav
 
 
 /*===================================================================================*/
-
+/* Products sliders ==============================>*/
 
 .productSlider
 {
@@ -486,7 +604,10 @@ nav
     height: 100%;
 }
 
+
 /*===================================================================================*/
+/* deal Day Box ==============================>*/
+
 .dealDay
 { 
     width: 90%;
@@ -526,7 +647,10 @@ nav
     color: #CC0C39;
 }
 
+
 /*===================================================================================*/
+/* top Right Section in the Body ===========================>*/
+
 .SpecialSection
 {
     background-color: transparent;
@@ -602,7 +726,7 @@ nav
 }
 
 /*===================================================================================*/
-
+/* See more Style ==============================>*/
 
 .seeMore
 {
