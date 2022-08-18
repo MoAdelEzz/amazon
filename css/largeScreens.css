@@ -31,4 +31,39 @@
         margin: auto;
         margin-bottom: 20px;
     }
+
+    .Item2
+    {
+        width: 45%;
+    }
+
+}
+
+
+@media (min-width:1440px)
+{
+    .Product
+    {
+        width: 23%;
+    }
+    .Location
+    {
+        width: 100%;
+    }
+    .Info
+    {
+        width: 75%;
+    }
+    .Icon
+    {
+        max-width: 12px;
+    }
+
+    .Cart .Info
+    {
+        width: auto;
+        margin-left: 25px;
+    }
+
+
 }

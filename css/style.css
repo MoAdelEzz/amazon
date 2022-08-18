@@ -124,7 +124,10 @@ nav
 
 /*====================================== Left Nav Section ==========================================================================*/
 
-
+.Item2
+{
+    width: 40%;
+}
 
 /*Modal Properties =====================================>*/
 
@@ -225,6 +228,7 @@ nav
 .Icon
 {
     display:inline-block;
+    max-width: 20px;
 }
 
 .Info
@@ -763,7 +767,8 @@ nav
 .border
 {
     height: 80%;
-    margin-top: 20px;
+    margin-top: 20px; 
+    margin-bottom: 20px;
     padding-top: 30px;
 }
 
